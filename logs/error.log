@@ -214,3 +214,13 @@
 2017/06/03 12:02:10 [error] 12758#0: *157 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET / HTTP/1.1", upstream: "http://192.168.122.8:8080/", host: "192.168.122.10"
 2017/06/03 12:02:17 [error] 14859#0: *164 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /bodyback.png HTTP/1.1", upstream: "http://192.168.122.8:8080/bodyback.png", host: "192.168.122.10", referrer: "https://192.168.122.10/"
 2017/06/03 12:43:52 [emerg] 6562#0: unknown directive "erver" in /home/Daniil/nginx/conf/vhosts/lb.conf:1
+2017/06/03 13:22:28 [error] 17713#0: *211 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /bodyback.png HTTP/1.1", upstream: "http://192.168.122.8:8080/bodyback.png", host: "192.168.122.10", referrer: "https://192.168.122.10/"
+2017/06/03 13:27:14 [emerg] 6562#0: unknown directive "erver" in /home/Daniil/nginx/conf/vhosts/lb.conf:1
+2017/06/03 13:28:49 [error] 17713#0: *311 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /1234 HTTP/1.1", upstream: "http://192.168.122.8:8080/1234", host: "192.168.122.10"
+2017/06/03 13:30:13 [error] 17713#0: *311 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /asd HTTP/1.1", upstream: "http://192.168.122.8:8080/asd", host: "192.168.122.10"
+2017/06/03 13:30:37 [error] 17713#0: *311 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /asd HTTP/1.1", upstream: "http://192.168.122.8:8080/asd", host: "192.168.122.10"
+2017/06/03 13:33:58 [emerg] 6562#0: unknown directive "erver" in /home/Daniil/nginx/conf/vhosts/lb.conf:1
+2017/06/03 13:34:01 [error] 17713#0: *352 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /asd HTTP/1.1", upstream: "http://192.168.122.8:8080/asd", host: "192.168.122.10"
+2017/06/03 13:34:20 [emerg] 6562#0: unknown directive "erver" in /home/Daniil/nginx/conf/vhosts/lb.conf:1
+2017/06/03 13:36:36 [emerg] 6562#0: unknown directive "ierror_page" in /home/Daniil/nginx/conf/vhosts/lb.conf:35
+2017/06/03 13:37:33 [error] 22785#0: *376 connect() failed (113: No route to host) while connecting to upstream, client: 192.168.122.1, server: 192.168.122.10, request: "GET /asd HTTP/1.1", upstream: "http://192.168.122.8:8080/err.html", host: "192.168.122.10"
