@@ -1,1 +1,4 @@
 6.June.2017
+git add .
+git commit -m "message"
+git push -u origin master
